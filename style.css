@@ -1,0 +1,171 @@
+.header{
+     display:flex;
+     justify-content: space-between;
+     background-color: #ca8efa;
+     padding:15px;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color:white;
+}
+
+.bodying{
+    background-color:#8cfffd;
+    display: flex;
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border:#000000;
+    border-radius: 50px;
+
+}
+
+.origami {
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding:30px;
+    border: #000000;
+}
+.l{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    border: #000000;
+}
+.a{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    border: #000000;
+}
+.c{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    border:#000000;
+ 
+}
+.p{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    border: #000000;
+}
+.t{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    border: #000000;
+}
+body{
+    background: #ffb6c1;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ca8efa;
+    padding:15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+.a:hover img{
+    opacity: 0.33;
+}
+.origami:hover img{
+    opacity: 0.33;
+}
+.l:hover img{
+    opacity: 0.33;
+}
+.t:hover img{
+    opacity: 0.33;
+}
+.c:hover img{
+    opacity: 0.33;
+}
+.p:hover img{
+    opacity: 0.33;
+}
+
+
+.a h3{
+    position:absolute;
+    top:70%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.origami h3{
+    position:absolute;
+    top:70%;
+    left:72%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.t h3{
+    position:absolute;
+    top:120%;
+    left:72%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.c h3{
+    position:absolute;
+    top:170%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.p h3{
+    position:absolute;
+    top:170%;
+    left:70%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.l h3{
+    position:absolute;
+    top:120%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.origami:hover h3{
+    opacity:1;
+  }
+  .l:hover h3{
+    opacity:1;
+  }
+  .p:hover h3{
+    opacity:1;
+  }
+  .a:hover h3{
+    opacity:1;
+  }
+  .t:hover h3{
+    opacity:1;
+  }
+  .c:hover h3{
+    opacity:1;
+  }
+
+.menu:link{
+    color:#ffb5f6;
+    
+}
+.menu:visited{
+    color:#9d9ffa;
+}
+    .menu {
+        margin-right: 30px;
+    }
+    .menu a{
+        margin-left: 30px;
+    }
